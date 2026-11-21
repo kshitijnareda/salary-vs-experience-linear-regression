@@ -1,13 +1,13 @@
-# Salary vs Years of Experience — Simple Linear Regression
+# Salary vs Years of Experience: Simple Linear Regression
 
-Predicting salary from years of experience with simple linear regression in Python (scikit-learn).
+Predicting salary from years of experience using simple linear regression in Python (scikit-learn).
 
 ## Overview
-This project fits a straight-line model, `salary = intercept + slope × years_of_experience`, and checks how much of the variation in salary is explained by experience alone.
+This project fits a straight-line model, `salary = intercept + slope × years_of_experience`, and measures how much of the variation in salary is explained by experience alone.
 
 ## Dataset
-- File: `data/salaries.csv` (100 rows, no missing values)
-- Source: _add source / note if synthetic_
+- **File:** `data/salaries.csv` (100 rows, no missing values)
+- **Source:** Practice dataset used for learning purposes
 
 | Column | Description |
 |---|---|
@@ -33,20 +33,21 @@ This project fits a straight-line model, `salary = intercept + slope × years_of
 | RMSE | 150.89 |
 | R² | 0.937 |
 
-Each additional year of experience is associated with roughly 190 more in salary, and experience alone explains about 94% of the variance in the test set.
+Each additional year of experience is associated with roughly 190 more in salary. Experience alone explains about 94% of the variance in the test set.
 
 ## Limitations
-- Only one predictor; factors such as role, location or education are not modelled
-- Evaluated on a single 20-row test split; no cross-validation
+- Only one predictor; role, location, education and similar factors are not modelled
+- Evaluated on a single 20-row test split, with no cross-validation
 - Linearity is assumed, not tested
 
 ## Getting Started
 ```bash
-git clone https://github.com/<your-username>/salary-vs-experience-linear-regression.git
+git clone https://github.com/kshitijnareda/salary-vs-experience-linear-regression.git
 cd salary-vs-experience-linear-regression
 pip install pandas numpy matplotlib scikit-learn jupyter
 jupyter notebook
 ```
+Open `salary_vs_experience_simple_linear_regression.ipynb` and run all cells.
 
 ## Repository Structure
 ```
@@ -60,4 +61,5 @@ jupyter notebook
 Python · pandas · NumPy · scikit-learn · Matplotlib · Jupyter
 
 ## Author
-Kshitij Nareda
+**Kshitij Nareda**
+GitHub: [@kshitijnareda](https://github.com/kshitijnareda)
